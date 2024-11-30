@@ -1,7 +1,7 @@
 {
   "scripts": {
     "deploy": "aws lambda update-function-code --function-name dictionary --zip-file fileb://lambda.zip",
-    "package": "zip -r lambda.zip * -x \"*.png*\" \"*.README.md\" \"tests/*\"",
+    "package": "zip -r lambda.zip * -x \"*.png*\" \"README.md\" \"tests/*\"",
     "lint": "npx eslint . --fix",
     "format": "prettier --write .",
     "test": "jest"
