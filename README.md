@@ -37,6 +37,7 @@ This is a serverless **Line Bot** deployed using **AWS Lambda**, which fetches w
 4. **DictionaryAPI**: Use [DictionaryAPI](https://dictionaryapi.dev/) for fetching word definitions.
 
    Assume you have all aws lambda setup, and line message api webhook configuration.
+
 ---
 
 ### **Installation & Deployment**
@@ -47,7 +48,9 @@ This is a serverless **Line Bot** deployed using **AWS Lambda**, which fetches w
 git clone <repository-url>
 cd <repository-name>
 ```
+
 #### **Step 2: Install Dependencies**
+
 Make sure Node.js is installed, then run the following to install dependencies:
 
 ```bash
@@ -55,19 +58,26 @@ npm install
 ```
 
 #### **Step 3: Set Environment Variables**
+
 Create a .env file or set the following environment variables in AWS Lambda:
+
 ```text
 LINE_CHANNEL_ACCESS_TOKEN - Your Line bot access token.
 LINE_CHANNEL_SECRET - Your Line bot secret.
 ```
+
 #### **Step 4: Deploy to AWS Lambda**
+
 Package the Project:
 
 Zip your project files (including node_modules).
+
 ```bash
 npm run package
 ```
+
 Assume you have created aws lambda name "dictionary", and have proper aws config in local
+
 ```bash
 npm run deploy
 ```
