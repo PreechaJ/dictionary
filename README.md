@@ -1,13 +1,13 @@
 # **Line Bot with AWS Lambda and Dictionary API**
 
-This is a serverless **Line Bot** deployed using **AWS Lambda**, which fetches word definitions from the **DictionaryAPI** and replies to users on Line. The bot is built using **Node.js** and **AWS Free Tier** services to ensure zero cost while staying within the free usage limits.
+This is a serverless **Line Bot** deployed using **AWS Lambda**, which fetches word definitions from the **DictionaryAPI** and replies to users on Line. The bot is built using **Node.js**.
 
 ### **Features**
 
 - Accepts a word as input from the user.
 - Fetches the word's definition and part of speech using the **DictionaryAPI**.
 - Responds with the definition in a structured format on the **Line Chat**.
-- Uses **AWS Lambda** to host the function, **API Gateway** to expose the webhook endpoint, and **Line Messaging API** to interact with users.
+- Uses **AWS Lambda** to host the function, and **Line Messaging API** to interact with users.
 
 ---
 
@@ -45,8 +45,8 @@ This is a serverless **Line Bot** deployed using **AWS Lambda**, which fetches w
 #### **Step 1: Clone the Repository**
 
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone git@github.com:PreechaJ/dictionary.git
+cd dictionary
 ```
 
 #### **Step 2: Install Dependencies**
