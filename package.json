@@ -1,4 +1,7 @@
 {
+  "name": "white-dictionary",
+  "version": "1.1.0",
+  "description": "Line Bot with AWS Lambda and Dictionary API",
   "scripts": {
     "deploy": "aws lambda update-function-code --function-name dictionary --zip-file fileb://lambda.zip",
     "package": "zip -r lambda.zip * -x \"*.png*\" \"README.md\" \"tests/*\"",
