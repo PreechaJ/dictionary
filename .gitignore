@@ -1,0 +1,46 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Node modules
+node_modules/
+jspm_packages/
+
+# AWS Lambda deployment packages
+lambda.zip
+
+# Environment variables
+.env
+
+# IDE and editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Prettier
+.prettierignore
+
+# Build and production files
+dist/
+build/
+.tmp/
+
+# Other ignored files
+*.bak
+*.swp
